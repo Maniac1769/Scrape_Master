@@ -1,5 +1,6 @@
 # streamlit_app.py
-
+os.system('playwright install')
+os.system('playwright install-deps')
 import streamlit as st
 from streamlit_tags import st_tags_sidebar
 import pandas as pd
